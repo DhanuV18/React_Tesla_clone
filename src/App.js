@@ -18,7 +18,7 @@ function App() {
       <Section
         title="Model 3"
         description="Schedule a Demo Drive"
-        backgroundImg="model-s.jpg"
+        backgroundImg="model-3.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing Inventory"
       />
@@ -26,7 +26,7 @@ function App() {
       <Section
         title="Model S"
         description="Schedule a Demo Drive"
-        backgroundImg="model-s2.jpg"
+        backgroundImg="model-s.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing Inventory"
       />
@@ -34,7 +34,7 @@ function App() {
       <Section
         title="Model X"
         description="Schedule a Demo Drive"
-        backgroundImg="model-x2.jpg"
+        backgroundImg="model-x.jpg"
         rightBtnText="Existing Inventory"
         leftBtnText="Custom Order"
       />
