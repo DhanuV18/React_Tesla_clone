@@ -1,25 +1,67 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './index.css'
+import './App.css'
+import Section from './components/Section'
+import Header from './components/Header'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div className='App'>
+      <Header />
+      <Section
+        title="Model Y"
+        description="Schedule a Demo Drive"
+        backgroundImg="model-y.jpg"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing Inventory"
+      />
+      <Section
+        title="Model 3"
+        description="Schedule a Demo Drive"
+        backgroundImg="model-s.jpg"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing Inventory"
+      />
+
+      <Section
+        title="Model S"
+        description="Schedule a Demo Drive"
+        backgroundImg="model-s2.jpg"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing Inventory"
+      />
+
+      <Section
+        title="Model X"
+        description="Schedule a Demo Drive"
+        backgroundImg="model-x2.jpg"
+        rightBtnText="Existing Inventory"
+        leftBtnText="Custom Order"
+      />
+
+      <Section
+        title="Solar Panels"
+        description="Lowest cost solar panels in America"
+        backgroundImg="solar-panel.jpg"
+        leftBtnText="Order Now"
+        rightBtnText="Learn More"
+      />
+
+      <Section
+        title="Solar Roof"
+        description="Produce Clean Energy From Your Roof"
+        backgroundImg="solar-roof.jpg"
+        leftBtnText="Order Now"
+        rightBtnText="Learn More"
+      />
+
+      <Section
+        title="Accessories"
+        backgroundImg="accessories.jpg"
+        leftBtnText="Shop Now"        
+      />
+   </div>
+  )
 }
 
-export default App;
+export default App
