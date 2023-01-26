@@ -66,6 +66,7 @@ body {
 
 .app__itemsContainer{
   scroll-snap-type: y mandatory;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   height: 100vh;
 }
