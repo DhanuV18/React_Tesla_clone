@@ -76,9 +76,10 @@ const Menu = styled.div`
     padding: 0.4rem 0.8rem;
     text-decoration: none;
     flex-wrap: nowrap;
+    transition: all 0.5s;
   }  
     a:hover{
-     background-color: rgba(214, 213, 226, 0.5);
+     background-color: rgba(214, 213, 226, 0.8);
      border-radius: 4px;
    }
     @media screen and (max-width: 1024px) {
