@@ -8,7 +8,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg}
   
     
   return (
-    <Wrap bgImage={backgroundImg}>
+    <Wrap bgImage={backgroundImg} className="item">
       <ItemText>
         <Fade bottom>
           <h1 className='ItemText__heading'>{title}</h1>
@@ -49,7 +49,7 @@ const Wrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-    
+  scroll-snap-align: start;  
 `
 
 const ItemText = styled.div`
